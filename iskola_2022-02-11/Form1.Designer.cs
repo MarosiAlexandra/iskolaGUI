@@ -70,6 +70,7 @@ namespace iskola_2022_02_11
             this.Controls.Add(this.listBox1);
             this.Name = "Form1";
             this.Text = "iskolaGUI";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
